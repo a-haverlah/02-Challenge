@@ -5,48 +5,62 @@
     <title>Amber's Portfolio</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, intiail-scale=1"/>
-    <link rel="stylesheet" type="text/css" href=".assets/css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href=".assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./.assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./.assets/css/style.css"/>
 </head>
 
 <body>
     <!--header-->
     <header>
-        <h1>Placeholder Heading</h1>
-        <p>subheading blah blah optional</p>
+        <h1>Amber Haverlah</h1>
+        <p>My Portfolio</p>
 
         <!--may remove subheading here-->
     </header>
 
 <!--Navbar-->
     <nav>
-        <a href="#">Placeholder1</a>
-        <a href="#">Placeholder2</a>
-        <a href="#">Placeholder3</a>
+         <a href="#about-me">About Me</a>
+         <a href="#my-work">My Work</a>
+         <a href="#contact-me">Contact Me</a>
     </nav>
 
 <!-- Body-->
 <main>
     <section>
         <article>
+            <div class="content">
             <!--About me needs filling-->
             <h2>About Me</h2>
-            <div class="Amber Haverlah">
-                <section class="photo of me">
-                    <img src="./assets/images/candid2.jpg" alt="image of a woman beaming. she is wearing a blue and orange striped shirt with overalls">
+            <div id="about-me">
+                <section class="photo">
+                    <img src="./.assets/images/candid2.jpg" alt="image of a woman beaming. she is wearing a blue and orange striped shirt with overalls">
+                    <caption>Sunrise Trip to the Smokies, April 2021.</caption>
                 </section>
-                <p>Generic about me facts</p>
+                <p>I'm a Chattanooga native just beginning my career in web development. I've started this journey fairly early in my life, and I hope to spend the next several years refining my technique and style. My goal is to acheive a successful career through hard work and client-centric design. 
+                </p>
+                <p>In my spare time, I enjoy creative writing, hand-embroidery, hiking, and spend time with my friends. </p>
             </div>
-            <h3>Work</h3>
+            <h3>My Work</h3>
             <!--images-->
-            <div class="work">
+            <div id="my-work">
                 <section class="mini project1">
-                    <img src="./assets/images/01-mini challenge.png" alt="image of a basic website with light turqoise and purple color scheme">
+                    <img src="./.assets/images/01-mini challenge.png" alt="image of a basic website with light turqoise and purple color scheme">
+                    <p>First Mini Project</p>
                 </section>
                 <section class="01 challenge">
-                    <img src="./assets/images/screenshot-1.png" alt="image of more advanced website with blue background and text relating to marketing">
+                    <img src="./.assets/images/screenshot-1.png" alt="image of more advanced website with blue background and text relating to marketing">
+                    <p>First Challenge</p>
                 </section>
             </div>
+            <!--Don't forget to add contact info-->
+            <div id="contact-me">
+                <section class="contact me">
+                    <a href="#">(423)413-7285</a>
+                    <a href="#">haverlah.a@gmail.com</a>
+                </section>
+            </div>
+        </div>
         </article>
     </section>
 
@@ -54,7 +68,7 @@
 
 <footer>
     <!--optional footer-->
-    <span>Footer?</span>
+    <span>Life doesn't have to be a struggle, but lord knows I'm going to make it one.</span>
 </footer>
 </body>
 </html>
