@@ -1,0 +1,113 @@
+/*sets common theme*/
+:root {
+    --Koromiko: #fcb35f;
+    --Parchment: #f0eace;
+    --Shadow-Green: #9dc7b8;
+    --Blue-Dianne: #20434b;
+}
+
+/*basic background styling*/
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+    display:flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color: #9dc7b8;
+    color: #f0eace;
+}
+
+/*header elements*/
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 175%;
+    padding: 1%;
+    background-color:#20434b;
+    color: #f0eace;
+}
+
+/*resting nav style*/
+nav{
+    display: flex;
+    background-color: #f0eace;
+    justify-content: space-around;
+}
+
+/*text inside nav*/
+nav a {
+    color:#20434b;
+    padding:2%;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*hover styling*/
+nav a:hover {
+    background-color: #20434b;
+    color: #f0eace;
+
+}
+
+main {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    background: #fcb35f;
+    color: #9dc7b8;
+}
+/*layout for flexbox*/
+.box {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.box-header {
+    padding: 20px;
+    background: #fcb35f;
+    color: #20434b;
+}
+
+/*sets image sizes*/
+.box img{
+    width:75%;
+    min-width:400px;
+}
+
+.contact-me{
+
+}
+
+/* Cards are split into two columns at 992px or smaller 
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+    /* Change the header color 
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller 
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    /* Change the header color 
+    header {
+      background: #8ac4ff;
+    }
+  } */
